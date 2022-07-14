@@ -3,16 +3,16 @@ import Head from "next/head";
 import { Skills } from "../components/Skills";
 import { Landing } from "../components/Landing";
 import { Links } from "../components/Links";
+import style from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-neutral-800 text-white flex h-full flex-col">
+    <div
+      className={`relative text-white flex h-full flex-col ${style["animated-background"]}`}
+    >
       <Head>
-        <title>Nikolas Tomaštík</title>
-        <meta
-          name="description"
-          content="informatics engineer personal website"
-        />
+        <title>Nikolas Tomaštík - Software Engineer</title>
+        <meta name="description" content="my personal website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>

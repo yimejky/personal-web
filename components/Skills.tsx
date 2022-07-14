@@ -106,8 +106,8 @@ export const Skills = () => {
 
   return (
     <section className="bg-yellow-50 text-black">
-      <div className="mx-auto max-w-7xl px-8 py-28">
-        <div className="p-4 text-4xl text-center underline decoration-yellow-500">
+      <div className="mx-auto max-w-7xl px-8 py-36">
+        <div className="pb-6 text-4xl text-center underline decoration-yellow-500">
           me??
           <FontAwesomeIcon
             className="ml-1"
