@@ -4,6 +4,7 @@ import { Skills } from "../components/Skills";
 import { Landing } from "../components/Landing";
 import { Links } from "../components/Links";
 import style from "../styles/Home.module.css";
+import { Titles } from "../components/Titles";
 
 const Home: NextPage = () => {
   return (
@@ -17,12 +18,17 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <Landing />
-        <Skills />
+        <section className="bg-yellow-50 text-black">
+          <Titles />
+        </section>
         <Links />
+        <section className="bg-yellow-50 text-black">
+          <Skills />
+        </section>
       </main>
       <footer>
         <div className="container mx-auto p-4 text-center text-sm">
-          © 2022 Nikolas Tomaštík. All Rights Reserved.
+          © 2024 Nikolas Tomaštík. All Rights Reserved.
         </div>
       </footer>
     </div>

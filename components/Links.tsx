@@ -1,11 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import style from "../styles/Home.module.css";
 
 export const Links = () => {
   return (
     <div className={``}>
-      <section className={`max-w-7xl mx-auto md:px-8 py-60`}>
-        <div className="p-4 md:p-8 pb-16 text-3xl text-center decoration-yellow-500">
+      <section className={`max-w-7xl mx-auto md:px-8 py-28`}>
+        <div className="pb-6 text-4xl text-center">
+          <span className="underline decoration-yellow-500">my stuff</span>
+          📦
+        </div>
+        <div className="pb-6 text-2xl text-center">
           do not hesitate to contact me :))
         </div>
         <div className="max-w-max text-lg md:text-xl mx-auto">
