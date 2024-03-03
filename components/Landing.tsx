@@ -43,6 +43,9 @@ export const Landing = () => {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className="h-96 w-96 object-cover rounded-lg"
+              style={{
+                objectPosition: '40% 0'
+              }}
               src="/profile.jpg"
               alt="photo of me"
             />
